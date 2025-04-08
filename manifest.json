@@ -1,0 +1,27 @@
+{
+	"name": "Gurban Gemini",
+	"short_name": "Gemini",
+	"description": "Gemini Clone with offline support",
+	"lang": "en-US",
+	"dir": "ltr",
+	"theme_color": "#8936FF",
+	"background_color": "#2EC6FE",
+	"display": "standalone",
+	"start_url": "./",
+	"scope": "./",
+	"orientation": "portrait",
+	"icons": [
+	  {
+		"src": "icon512_maskable.png",
+		"sizes": "512x512",
+		"type": "image/png",
+		"purpose": "maskable"
+	  },
+	  {
+		"src": "icon512_rounded.png",
+		"sizes": "512x512",
+		"type": "image/png",
+		"purpose": "any"
+	  }
+	]
+}
