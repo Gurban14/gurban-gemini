@@ -11,6 +11,8 @@ let currentUserMessage = null;
 let isGeneratingResponse = false;
 
 const GEMINI_API_KEY = "AIzaSyAVbf5dGAGn0sMSOo4TYae4giY_9E8TXyM"; // Замени на свой ключ Google Gemini API
+// const GEMINI_API_KEY = "AIzaSyAtVqcGm9hLjNBCl68YoI-38P9-Sr5zn5A" Esli ne budet rabotat strariy API
+
 const API_REQUEST_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
 const openDatabase = () => {
